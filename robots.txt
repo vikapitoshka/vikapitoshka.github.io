@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: https://kaptn.ru/sitemap.xml
+Host: kaptn.ru
