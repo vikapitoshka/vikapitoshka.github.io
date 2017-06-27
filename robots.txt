@@ -1,3 +1,4 @@
 User-agent: *
+Disallow:
 Sitemap: https://kaptn.ru/sitemap.xml
-Host: kaptn.ru
+Host: https://kaptn.ru
