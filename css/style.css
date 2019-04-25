@@ -43,7 +43,7 @@ a:focus {
 
 .socials {
   font-size: 7rem;
-  padding: 35px 0;
+  padding: 30px 0;
 }
 
 .social-icon {
@@ -53,8 +53,15 @@ a:focus {
 .links {
   font-size: 3em;
   font-weight: 900;
+  margin-bottom: 25px;
 }
 
 .link-item {
   padding: 0 20px;
+}
+
+.email {
+  display: block;
+  font-size: 1.2em;
+  line-height: 1.7;
 }
