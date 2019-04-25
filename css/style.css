@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -8,8 +12,44 @@ html {
 body {
   background: linear-gradient(to right, rgb(0, 92, 151), rgb(54, 55, 149));
   color: #fff;
+  height: 100vh;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: .2s color;
+}
+
+a:visited,
+a:active {
+  color: #fff;
+}
+
+a:hover,
+a:focus {
+  color: #dfdfdd;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 
 .hello {
   text-align: center;
+  margin-bottom: 30px;
+}
+
+.socials {
+  font-size: 7rem;
+  text-align: center;
+}
+
+.social-icon {
+  padding: 0 10px;
 }
