@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background: linear-gradient(to right, rgb(0, 92, 151), rgb(54, 55, 149));
+  color: #fff;
+}
+
+.hello {
+  text-align: center;
+}
