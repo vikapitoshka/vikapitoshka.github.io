@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
 
 * {
   box-sizing: border-box;
@@ -13,6 +13,7 @@ body {
   background: linear-gradient(to right, rgb(0, 92, 151), rgb(54, 55, 149));
   color: #fff;
   height: 100vh;
+  text-align: center;
 }
 
 a {
@@ -40,16 +41,20 @@ a:focus {
   height: 100%;
 }
 
-.hello {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
 .socials {
   font-size: 7rem;
-  text-align: center;
+  padding: 35px 0;
 }
 
 .social-icon {
   padding: 0 10px;
+}
+
+.links {
+  font-size: 3em;
+  font-weight: 900;
+}
+
+.link-item {
+  padding: 0 20px;
 }
